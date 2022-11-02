@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Foo Pre-Onboarding Examples</string>
+
+    <string name="title_onboarding_1">Welcome to Foo Pre-Onboarding App !</string>
+    <string name="description_onboarding_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</string>
+
+    <string name="title_onboarding_2">Lorem ipsum</string>
+    <string name="description_onboarding_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</string>
+
+    <string name="title_onboarding_3">Lorem ipsum</string>
+    <string name="description_onboarding_3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</string>
+
+    <string name="start_text_advice">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+
+    <string name="start">start</string>
+    <string name="skip">Skip</string>
+    <string name="finish">finish</string>
+    <string name="next">next</string>
+    <string name="back">back</string>
+</resources>
