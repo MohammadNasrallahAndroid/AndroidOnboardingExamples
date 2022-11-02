@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
 import com.example.fooonboarding.databinding.ActivityOnboardingExample3Binding
 import com.example.fooonboarding.fooonboardingexamples.adapters.OnboardingViewPagerAdapter3
-import com.example.fooonboarding.fooonboardingexamples.utils.Animatoo
+import com.example.fooonboarding.fooonboardingexamples.utils.test
 import com.google.android.material.tabs.TabLayoutMediator
 import com.jaeger.library.StatusBarUtil
 
@@ -33,8 +33,10 @@ class OnboardingExample3Activity : AppCompatActivity() {
         mViewPager.adapter = OnboardingViewPagerAdapter3(this, this)
         mViewPager.offscreenPageLimit = 1
         TabLayoutMediator(binding.pageIndicator, mViewPager) { _, _ -> }.attach()
+
         binding.viewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
             override fun onPageSelected(position: Int) {
+                view.test(view)
                 if (position == 2) {
                     btnNextStep.visibility = View.GONE
                     textEnd.visibility = View.VISIBLE
@@ -46,10 +48,12 @@ class OnboardingExample3Activity : AppCompatActivity() {
                 }
             }
 
-            override fun onPageScrolled(arg0: Int, arg1: Float, arg2: Int) {}
-            override fun onPageScrollStateChanged(arg0: Int) {}
-        })
+            override fun onPageScrolled(arg0: Int, arg1: Float, arg2: Int) {
+            }
 
+            override fun onPageScrollStateChanged(arg0: Int) {
+            }
+        })
 
         StatusBarUtil.setTranslucentForImageViewInFragment(this, null)
 
@@ -66,7 +70,6 @@ class OnboardingExample3Activity : AppCompatActivity() {
             if (getItem() > mViewPager.childCount) {
                 finish()
             } else {
-                Animatoo.animateSlideUp(this)
                 mViewPager.setCurrentItem(getItem() + 1, true)
             }
         }
@@ -76,3 +79,4 @@ class OnboardingExample3Activity : AppCompatActivity() {
         return mViewPager.currentItem
     }
 }
+
