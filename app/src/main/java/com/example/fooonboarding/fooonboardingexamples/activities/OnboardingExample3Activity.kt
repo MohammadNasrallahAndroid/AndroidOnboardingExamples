@@ -1,5 +1,6 @@
 package com.example.fooonboarding.fooonboardingexamples.activities
 
+import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageButton
@@ -36,7 +37,9 @@ class OnboardingExample3Activity : AppCompatActivity() {
 
         binding.viewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
             override fun onPageSelected(position: Int) {
-                view.test(view)
+                if (position != 0) {
+                    view.test(view)
+                }
                 if (position == 2) {
                     btnNextStep.visibility = View.GONE
                     textEnd.visibility = View.VISIBLE

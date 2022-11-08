@@ -59,6 +59,16 @@
         android:text="Example 4"
         android:textColor="@color/md_white_1000"
         android:textSize="14sp" />
+    <Button
+        android:id="@+id/btn_example5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_blue_selector"
+        android:onClick="onClick"
+        android:text="Example 5"
+        android:textColor="@color/md_white_1000"
+        android:textSize="14sp" />
 
 
 </LinearLayout>

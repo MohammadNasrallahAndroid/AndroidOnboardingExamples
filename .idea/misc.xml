@@ -3,17 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/drawable/bubble_bbackground.xml" value="0.2565" />
         <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/layout/activity_main.xml" value="0.29981884057971014" />
         <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/layout/activity_on_boarding.xml" value="0.29981884057971014" />
         <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/layout/activity_onboarding_example1.xml" value="0.29981884057971014" />
         <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/layout/activity_onboarding_example2.xml" value="0.29981884057971014" />
         <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/layout/activity_onboarding_example3.xml" value="0.29981884057971014" />
         <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/layout/activity_onboarding_example4.xml" value="0.29981884057971014" />
+        <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/layout/activity_onboarding_example5.xml" value="0.29981884057971014" />
         <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/layout/activity_onboarding_finish.xml" value="0.29981884057971014" />
+        <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/layout/fragment_main.xml" value="0.29981884057971014" />
         <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/layout/fragment_onboarding1.xml" value="0.29981884057971014" />
         <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/layout/fragment_onboarding2.xml" value="0.29981884057971014" />
         <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/layout/fragment_onboarding3.xml" value="0.29981884057971014" />
         <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/layout/fragment_onboarding4.xml" value="0.29981884057971014" />
+        <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/layout/fragment_onboarding5.xml" value="0.29981884057971014" />
+        <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/layout/layout_bubble_item.xml" value="0.29981884057971014" />
+        <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/layout/onboarding_motion_layout.xml" value="0.29981884057971014" />
         <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/layout/slide_item_container.xml" value="0.29981884057971014" />
         <entry key="..\:/SlimFilm/FooOnboarding/app/src/main/res/layout/slides_layout.xml" value="0.29981884057971014" />
       </map>

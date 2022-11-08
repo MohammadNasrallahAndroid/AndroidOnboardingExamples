@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="21"
+        android:minSdkVersion="23"
         android:targetSdkVersion="32" />
 
     <application
@@ -22,6 +22,7 @@
         <activity android:name="com.example.fooonboarding.fooonboardingexamples.activities.OnboardingExample1Activity" />
         <activity android:name="com.example.fooonboarding.fooonboardingexamples.activities.OnboardingExample2Activity" />
         <activity android:name="com.example.fooonboarding.fooonboardingexamples.activities.OnboardingExample3Activity" />
+        <activity android:name="com.example.fooonboarding.fooonboardingexamples.activities.OnboardingExample5Activity" />
         <activity
             android:name="com.example.fooonboarding.fooonboardingexamples.activities.MainActivity"
             android:exported="true"

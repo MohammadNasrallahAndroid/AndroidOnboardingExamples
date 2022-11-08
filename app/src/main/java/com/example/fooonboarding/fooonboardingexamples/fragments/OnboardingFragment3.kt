@@ -1,5 +1,6 @@
 package com.example.fooonboarding.fooonboardingexamples.fragments
 
+import android.content.res.ColorStateList
 import android.graphics.Color
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.RelativeLayout
 import androidx.appcompat.widget.AppCompatTextView
+import androidx.core.content.res.ResourcesCompat
 import androidx.fragment.app.Fragment
 import com.airbnb.lottie.LottieAnimationView
 import com.example.fooonboarding.databinding.FragmentOnboarding3Binding
@@ -50,6 +52,11 @@ class OnboardingFragment3 : Fragment() {
         image.setAnimation(imageResource)
         layout.setBackgroundColor(Color.parseColor(backgroundColor))
         mFakeStatusBar.setBackgroundColor(Color.parseColor(backgroundColor))
+        view.backgroundTintList = ColorStateList.valueOf(Color.parseColor(backgroundColor));
+
+
+        this.allowEnterTransitionOverlap = true
+        this.allowReturnTransitionOverlap = true
         return view
     }
 

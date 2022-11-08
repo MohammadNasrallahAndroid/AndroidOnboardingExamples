@@ -302,4 +302,14 @@
     <color name="md_blue_grey_800">#37474F</color>
     <color name="md_blue_grey_900">#263238</color>
 
+
+    <color name="onboarding_background">#EEEEEE</color>
+
+    <color name="color_onboarding_page1">#f0973e</color>
+    <color name="color_onboarding_page2">#77ADEF</color>
+    <color name="color_onboarding_page3">#092E54</color>
+
+    <color name="text_color_onboarding_page1">#EEEEEE</color>
+    <color name="text_color_onboarding_page2">#EEEEEE</color>
+    <color name="text_color_onboarding_page3">#EEEEEE</color>\
 </resources>
